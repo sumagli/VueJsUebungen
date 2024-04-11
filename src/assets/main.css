@@ -1,0 +1,10 @@
+@import './base.css';
+body, html {
+  background-color: #1A1A1A;
+  color: white;
+  font-family:verdana;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
