@@ -40,6 +40,12 @@ const router = createRouter({
       name: "Aufgabe-8",
       component: () => import("../views/Aufgabe-8-emits.vue"),
     },
+
+    {
+      path: "/Aufgabe-9/Tips",
+      name: "Aufgabe-9-Tips",
+      component: () => import("../tips/Aufgabe-9-tips.vue"),
+    },
   ],
 });
 
